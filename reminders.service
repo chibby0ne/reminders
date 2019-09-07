@@ -1,0 +1,9 @@
+[Unit]
+Description=Simple periodic message Reminder through desktop notifications
+
+[Service]
+Type=simple
+ExecStart=reminders -m MESSAGE -p 300
+
+[Install]
+WantedBy=multi-user.target
