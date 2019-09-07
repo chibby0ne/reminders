@@ -3,8 +3,9 @@ name = "reminders"
 description = "A periodical reminder program using desktop notifications"
 readme = "README.md"
 license = "MIT"
+keywords = ["libnotify", "notifications", "periodic"]
 repository = "https://github.com/chibby0ne/reminders"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Antonio Gutierrez <chibby0ne@gmail.com>"]
 edition = "2018"
 
